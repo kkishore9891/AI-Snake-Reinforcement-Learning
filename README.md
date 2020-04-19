@@ -6,11 +6,11 @@ Reinforcement learning is a technique which is used to train neural networks wit
 
 There are two different implementations that I have tried.
 
-# 1)Fully Connected Neural Networks:
+1)FULLY CONNECTED NEURAL NETWORKS:
 
 In this method, the neural network has a 1 dimensional vector as input. The vector consists of 11 data points(The distance between snake's head and food in x direction and y direction, the distance between the snake's head and the obstacles in N,E,W,S,NE,NW,SE,SE directions and the length of the snake). This 11 dimensional input is used by the neural network to formulate a Q-Table which consists of the rewards for each possible action that could be taken for each possible Input.
 
-# 2) Convolutional Neural Networks:
+2) CONVOLUTIONAL NEURAL NETWORKS:
 
 In this method, the neural network has an input image of dimensions 16x16 with three colour channels(B,G,R). The Neural network consists of convolutional layers which uses trained kernels to produce feature maps. A series of convolutional and maxpooling layers produces a feature vector, which is used by fully connect layers to formulate the Q-Table.
 
