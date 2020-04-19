@@ -43,3 +43,8 @@ For example:
 python snake_rl_conv.py && snake_rl_conv.py
 
 3) Please don't forget to give credits to the author while repurposing it for your own use.
+
+# Links:
+
+1) My LinkedIN post: https://www.linkedin.com/posts/kishore-kumar-5a935a163_reinforcementlearning-tensorflow-neuralnetwork-ugcPost-6657648173022056449-yw1V
+2) Tutorials for Reinforcement learning: https://pythonprogramming.net/q-learning-reinforcement-learning-python-tutorial/ 
