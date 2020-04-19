@@ -1,4 +1,4 @@
-Paste hdf5 model files in this folder.
+Paste the hdf5 model files in this folder.
 
 Download the models using this link: 
 
