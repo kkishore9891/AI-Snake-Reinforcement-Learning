@@ -42,4 +42,4 @@ model = model.load("Models/New_Model.hdf5")
 For example:
 python snake_rl_conv.py && snake_rl_conv.py
 
-3) Please don't forget to give author credit while repurposing it for your own use.
+3) Please don't forget to give credits to the author while repurposing it for your own use.
