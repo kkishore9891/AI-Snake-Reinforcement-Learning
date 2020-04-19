@@ -121,7 +121,7 @@ for iteration in range(Iterations): 									#The AI plays the game "Iteration" 
 	#print(model.predict(X)) 									#Display the predictions.
 	done = False 											#Resetting done.
 	hit = False 											#Resetting hit.
-model.save("Models/model3.hdf5")                                         				#Saving the trained model.
+model.save("Models/model_conv.hdf5")                                         				#Saving the trained model.
 cv2.destroyAllWindows() 										#Close the SNAKE window.
 #########################################################################################################
 	
