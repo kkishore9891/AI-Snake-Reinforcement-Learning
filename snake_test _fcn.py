@@ -4,7 +4,7 @@ from tensorflow import keras                                                    
 import numpy as np 											#For operating with matrices and vectors.
 import cv2                                                                                              #Image Processing Library.
 #############################################INITIALISATION################################################
-snake.np.random.seed(2)                                                                                 #For testing the accuracy of the model, the snake and food should start from the same positions everytime.
+snake.np.random.seed(0)                                                                                 #For testing the accuracy of the model, the snake and food should start from the same positions everytime.
 model = keras.models.load_model("Models/model_fcn.hdf5")                                              	#Load a saved model.
 player = snake.Snake() 											#Create a snake game instance.
 val = player.val 											#Initial movement value.
