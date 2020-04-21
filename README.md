@@ -21,7 +21,7 @@ In this method, the neural network has a 1 dimensional vector as input. The vect
 2)CONVOLUTIONAL NEURAL NETWORKS:
 
 <p align="center">
-  <img width="350" height="250" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F3200%2F1*-xPK2X22QAU7ssU8ErD0pw.jpeg&f=1&nofb=1">
+  <img width="450" height="250" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F3200%2F1*-xPK2X22QAU7ssU8ErD0pw.jpeg&f=1&nofb=1">
 </p>
 
 In this method, the neural network has an input image of dimensions 16x16 with three colour channels(B,G,R). The Neural network consists of convolutional layers which uses trained kernels to produce feature maps. A series of convolutional and maxpooling layers produces a feature vector, which is used by fully connect layers to formulate the Q-Table.
