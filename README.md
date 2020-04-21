@@ -2,6 +2,8 @@
 
 This is an implementation of using AI to play the popular snake game using Reinforcement learning with Tensorflow 2.0.
 
+                        ![Snake](https://user-images.githubusercontent.com/34810513/79887740-fc962000-8418-11ea-8a03-fb26a3bdd361.jpg)
+
 Reinforcement learning is a technique which is used to train neural networks without large amount of labelled data. Instead, we let the AI make predictions for a certain input state and give a reward or punishment to the AI based on its performance. Therefore, the AI tries to maximise the reward by updating the weight parameters of the neural network accordingly.
 
 There are two different implementations that I have tried.
