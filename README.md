@@ -3,7 +3,7 @@
 This is an implementation of using AI to play the popular snake game using Reinforcement learning with Tensorflow 2.0.
 
   <p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/34810513/79890993-efc7fb00-841d-11ea-8b65-5b5a715f476f.gif">
+  <img width="250" height="250" src="https://user-images.githubusercontent.com/34810513/79890993-efc7fb00-841d-11ea-8b65-5b5a715f476f.gif">
 </p>
 
 Reinforcement learning is a technique which is used to train neural networks without large amount of labelled data. Instead, we let the AI make predictions for a certain input state and give a reward or punishment to the AI based on its performance. Therefore, the AI tries to maximise the reward by updating the weight parameters of the neural network accordingly.
@@ -21,7 +21,7 @@ In this method, the neural network has a 1 dimensional vector as input. The vect
 2)CONVOLUTIONAL NEURAL NETWORKS:
 
 <p align="center">
-  <img width="500" height="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F3200%2F1*-xPK2X22QAU7ssU8ErD0pw.jpeg&f=1&nofb=1">
+  <img width="350" height="250" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F3200%2F1*-xPK2X22QAU7ssU8ErD0pw.jpeg&f=1&nofb=1">
 </p>
 
 In this method, the neural network has an input image of dimensions 16x16 with three colour channels(B,G,R). The Neural network consists of convolutional layers which uses trained kernels to produce feature maps. A series of convolutional and maxpooling layers produces a feature vector, which is used by fully connect layers to formulate the Q-Table.
