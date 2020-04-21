@@ -14,7 +14,7 @@ In this method, the neural network has a 1 dimensional vector as input. The vect
 
 In this method, the neural network has an input image of dimensions 16x16 with three colour channels(B,G,R). The Neural network consists of convolutional layers which uses trained kernels to produce feature maps. A series of convolutional and maxpooling layers produces a feature vector, which is used by fully connect layers to formulate the Q-Table.
 
-# Contents:
+## Contents:
 
 1) snake.py is the game environment. This can return inputs suitable for both fully connected and convolutional neural network architectures. The code is commented line by line. You can check it for any clarifications.
 
@@ -26,13 +26,13 @@ In this method, the neural network has an input image of dimensions 16x16 with t
 
 5) snake_test_fcn.py is used to test the fully coonected neural network trained using RL. Make sure to change the name of the model file inside the code while testing a new neural network.
 
-# Dependencies:
+## Dependencies:
 
 1) Numpy library. Install using the cmd command: pip-install numpy.
 2) OpenCV library. Install using the cmd command: pip-install opencv-python.
 3) Tensorflow 2.0-gpu with CUDA support. Visit the follwing link install CUDA and tensorflow 2.0-gpu: https://medium.com/ai-club-gectcr/installing-tensorflow-2-0-on-windows-10-x64-e9380c5e20d8
 
-# Note:
+## Note:
 
 1) To train a new model using a new architecture, you have to alter the code. While doing so, you have to comment out the model.load() command in both snake_rl_conv.py and snake_rl_fcn.py in order to prevent an older model from being loaded. You have to do this only for the first time. To retrain the new architecture, uncomment the model.load() statement and change the name of the model file.
 For example:
