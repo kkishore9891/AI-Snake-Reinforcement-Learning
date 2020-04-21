@@ -12,6 +12,10 @@ There are two different implementations that I have tried.
 
 1)FULLY CONNECTED NEURAL NETWORKS:
 
+<p align="center">
+  <img width="300" height="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmissinglink.ai%2Fwp-content%2Fuploads%2F2019%2F02%2FFully-Connected-Neural-Network.png&f=1&nofb=1">
+</p>
+
 In this method, the neural network has a 1 dimensional vector as input. The vector consists of 11 data points(The distance between snake's head and food in x direction and y direction, the distance between the snake's head and the obstacles in N,E,W,S,NE,NW,SE,SE directions and the length of the snake). This 11 dimensional input is used by the neural network to formulate a Q-Table which consists of the rewards for each possible action that could be taken for each possible Input.
 
 2)CONVOLUTIONAL NEURAL NETWORKS:
